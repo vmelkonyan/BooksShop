@@ -34,7 +34,7 @@
                                 required>
 
                             <#list authors as author>
-                                <option value="${author.id}">${author.firstName}</option>
+                                <option value="${author.id}">${author.firstName}  ${author.lastName}</option>
                             </#list>
                         </select>
 
